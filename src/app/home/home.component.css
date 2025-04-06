@@ -32,3 +32,13 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.hero-for-pc {
+    background-image: url(../../img/luigi2.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #222324;
+    color: white;
+    padding: 50px 20px;
+}

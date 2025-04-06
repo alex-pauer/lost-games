@@ -1,1 +1,64 @@
-<p>cesta-page works!</p>
+<main>
+    <div class="cesta">
+    <section class="cart">
+        <h1>Tu cesta de compra</h1>
+
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="../img/pc/NewVegas.jpg" alt="Fallout New Vegas">
+                <div class="cart-item-details">
+                    <h3>Fallout New Vegas PC</h3>
+                    <span class="price">299.99€</span>
+                    <p>Cantidad: 1</p>
+                    <button class="remove-item">Eliminar</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="../img/pc/batman arkham knight.jpg" alt="Batman Arkham Knight">
+                <div class="cart-item-details">
+                    <h3>Batman Arkham Knight PC</h3>
+                    <span class="price">349.99€</span>
+                    <p>Cantidad: 1</p>
+                    <button class="remove-item">Eliminar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cart-summary">
+            <p><strong>Total:</strong> 649.98€</p>
+            <button class="checkout-button">Proceder al pago</button>
+        </div>
+    </section>
+
+    <section class="checkout">
+        <h2>Detalles de facturación</h2>
+        <form>
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email">
+
+            <label for="address">Dirección</label>
+            <input type="text" id="address" name="address">
+
+            <label for="city">Ciudad</label>
+            <input type="text" id="city" name="city">
+
+            <label for="postal-code">Código postal</label>
+            <input type="text" id="postal-code" name="postal-code">
+
+            <label for="payment-method">Método de pago</label>
+            <select id="payment-method" name="payment-method">
+                <option value="credit-card">Tarjeta de crédito</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Transferencia bancaria</option>
+            </select>
+
+            <button class="checkout-button" type="submit">Realizar pedido</button>
+        </form>
+    </section>
+    </div>
+</main>   

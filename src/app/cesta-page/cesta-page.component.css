@@ -1,0 +1,137 @@
+.pedido button {
+    color: #7842a1;
+}
+
+.cesta-img  img{
+    width: 40px;
+}
+
+.cart, .checkout {
+    max-width:80%;
+    /*para que se vea centrado*/
+    margin: 0px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cart-items {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /*line separacion entre articulos*/
+    border-bottom: 2px solid #7842a1;
+    padding-bottom: 20px;
+}
+
+.cart-item img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.cart-item-details h3 {
+    font-size: 18px;
+}
+
+.cart-item-details .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7842a1;
+}
+
+.cart-item-details button {
+    padding: 10px 20px;
+    background-color: #7842a1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.cart-item-details button:hover { 
+    background-color: white;
+    color: #7842a1;
+}
+
+
+
+.cart-summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.checkout form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.checkout label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.checkout input, .checkout select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #222324;
+    border-radius: 5px;
+}
+
+.checkout button {
+    background-color: #7842a1;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cart-summary .checkout-button {
+    padding: 10px 20px;
+    background-color: #7842a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.cart-summary .checkout-button:hover {
+    background-color: white;
+    color: #7842a1;
+}
+
+.btn-index {
+    padding: 10px 20px;
+    background-color: #7842a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.btn-index:hover {
+    background-color: white;
+    color: #7842a1;
+}

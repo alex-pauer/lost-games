@@ -19,3 +19,36 @@ body {
     color: #333;
     background-color: #f0e0da;
 }
+
+.vinyl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.vinyl img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.vinyl p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.vinyl span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}

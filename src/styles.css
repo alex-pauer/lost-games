@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f0e0da;
+}
+
+header {
+    background-color: #7842a1;
+    color: white;
+    height: 85px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+        vertical-align: middle;
+
+}
+
+
+header .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+.logo img {
+    width: 50px;  
+    veºrtical-align: middle;
+  }
+
+
+header .nav-links {
+    font-size: 19px;
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin: 10px;
+}
+
+header .nav-links a {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #222324;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.user-icon img {
+    max-height: 25px;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.hero-for-pc {
+    background-image: url(../src/img/luigi2.png);
+    /*para que lo ocupe todo*/ 
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #222324;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero-for-pc .hero-content {
+    display: flex;
+}
+
+.hero-for-pc .hero-content .hero-image {
+    max-width: 150px;
+}
+
+.hero-for-pc h1 {
+    font-size: 36px;
+}
+
+.hero-for-pc p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-for-pc .btn {
+    padding: 10px 20px;
+    background-color: #7842a1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+@media (max-width: 768px) {
+    .hero-for-pc {
+        background-image: none;
+    }
+}
+
+.products {
+    background-color: #f0e0da;
+    padding: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    width: auto;
+    height: auto;
+    /*le añadi flexbox para que el texto este en linea todos*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.product img {
+    flex-grow: 1; /*para que el texto del producto este recto con los otros productos*/
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #7842a1;
+}
+
+.products img {
+    height: 180px;
+    width: auto;
+}
