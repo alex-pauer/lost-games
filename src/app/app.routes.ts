@@ -1,10 +1,12 @@
 import { Routes } from '@angular/router';
-import { PcPageComponent } from './pc-page/pc-page.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { 
-      path: 'home', 
-      loadComponent: () => import('./app.component').then(m => m.AppComponent) 
-    }
+  { 
+    path: '',
+    loadComponent: () => import('./home/home.component').then(m => m.HomeComponent)
+  },
+  {
+    path: 'pc-page',
+    loadComponent: () => import('./pc-page/pc-page.component').then(m => m.PcPageComponent)
+  }
 ];
