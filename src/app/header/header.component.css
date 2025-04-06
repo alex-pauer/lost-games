@@ -1,15 +1,64 @@
 header {
-    flex-direction: column;
-    height: auto;
-    padding: 15px;
+    background-color: #7842a1;
+    color: white;
+    height: 85px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+        vertical-align: middle;
+
 }
 
-.nav-links {
-    flex-wrap: wrap;
+
+header .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+.logo img {
+    width: 50px;  
+    veºrtical-align: middle;
+  }
+
+
+header .nav-links {
+    font-size: 19px;
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin: 10px;
+}
+
+header .nav-links a {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #222324;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.user-icon img {
+    max-height: 25px;
     justify-content: center;
-    margin-top: 15px;
-}
-
-.nav-links li {
-    margin: 8px;
+    margin-left: 35px;
 }
