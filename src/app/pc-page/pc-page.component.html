@@ -1,0 +1,157 @@
+<main>
+    <section class="hero-for-pc">
+        <div class="hero-content">
+            <div class="text-section">
+                <h1>PC GAMES</h1>
+                <p>
+                    Ediciones coleccionista para PC <br>
+                    de tus juegos favoritos y vinilos de bandas sonoras.
+                </p>
+                <a href="#" class="btn">Ver catálogo</a>
+            </div>
+            <img src="../img/pc/1.png" alt="PC Gaming" class="hero-image">
+        </div>
+    </section>
+    <div class="featured">
+        <h1>Productos</h1>
+    </div>
+    <section class="products">
+        <div class="slider">
+            <button class="slider-btn left" onclick="prevSlide()">&#10094;</button>
+            <div class="slider-container" id="slides">
+                <div class="slide"><img src="../img/pc/slider/fable.webp" alt="Imagen 1"></div>
+                <div class="slide"><img src="../img/pc/slider/mafia.jpg" alt="Imagen 2"></div>
+                <div class="slide"><img src="../img/pc/slider/avowed.jpg_large" alt="Imagen 3"></div>
+            </div>
+            <button class="slider-btn right" onclick="nextSlide()">&#10095;</button>
+        </div>
+    
+<script>
+  let index = 0;
+    function showSlide(n) {
+        const slides = document.querySelectorAll('.slide');
+        if (n >= slides.length) index = 0;
+        if (n < 0) index = slides.length - 1;
+        document.getElementById('slides').style.transform = `translateX(${-index * 100}%)`;
+    }
+
+    function nextSlide() {
+        index++;
+        showSlide(index);
+    }
+
+    function prevSlide() {
+        index--;
+        showSlide(index);
+    }
+</script>
+        <h2>Ediciones coleccionista para PC</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="C:\Users\georg\Desktop\lost games\lost-games\src\app\assets\img\pc\NewVegas.jpg" alt="Product 1">
+                <p>Fallout New Vegas PC</p>
+                <span>299.99€</span>
+            </div>
+            <div class="product">
+                <img src="../img/pc/batman arkham knight.jpg" alt="Product 2">
+                <p>Batman Arkham Knight PC</p>
+                <span>349.99€</span>
+            </div>
+            <div class="product">
+                <img src="../img/pc/starwars_jedi.webp" alt="Product 3">
+                <p>Star Wars Jedi Survivor PC</p>
+                <span>249.99€</span>
+            </div>
+        </div> &nbsp;&nbsp;
+        <div class="product-grid">
+            <div class="product">
+                <img src="../img/pc/cyberpunk.jpg" alt="Product 1">
+                <p>Cyberpunk2077 PC</p>
+                <span>249.99€</span>
+            </div>
+            <div class="product">
+                <img src="../img/pc/stalker-2-limited-edition.jpg" alt="Product 2">
+                <p>S.T.A.L.A.K.E.R 2 PC</p>
+                <span>249.99€</span>
+            </div>
+            <div class="product">
+                <img src="../img/pc/baldursGate3.jpg" alt="Product 3">
+                <p>Baldurs Gate 3 PC</p>
+                <span>199.99€</span>
+            </div>
+        </div> &nbsp;&nbsp;
+        <h2>Vinyl</h2>
+        <div class="container">
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/persona3.webp" alt="Producto 1">
+                <p>Persona 3 Vinyl</p>
+                <span>Precio: €109.99</span>
+            </div>
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/silent hill.jpg" alt="Producto 2">
+                <p>Silent Hill Vinyl</p>
+                <span>Precio: €109.99</span>
+            </div>
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/persona25.jpg" alt="Producto 3">
+                <p>Persona 25 Vinyl</p>
+                <span>Precio: €109.99</span>
+            </div>
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/doom.webp" alt="Producto 4">
+                <p>DOOM Vinyl</p>
+                <span>Precio: €109.99</span>
+            </div>
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/theWalkingDead.webp" alt="Producto 5">
+                <p>The Walking Dead Vinyl</p>
+                <span>Precio: €99.99</span>
+            </div>
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/metalGearSolid.webp" alt="Producto 6">
+                <p>Metal Gear Solid Vinyl</p>
+                <span>Precio: €109.99</span>
+            </div>
+            <div class="vinyl">
+                <img src="../img/pc/vinyl/alanWake2.webp" alt="Producto 7">
+                <p>Persona Alan Wake II Vinyl</p>
+                <span>Precio: €49.99</span>
+            </div>
+        </div>
+        &nbsp;&nbsp;
+        <div class="product-grid">
+            <div class="product">
+                <img src="../img/pc/atlusLogo.webp" alt="">
+            </div>
+            <div class="product">
+                <img src="../img/pc/FinalFantasyLogo.png" alt="">
+            </div>
+            <div class="product">
+                <img src="../img/pc/CD_Projekt_logo.png" alt="">
+            </div>
+            <div class="product">
+                <img src="../img/pc/Activision-Logo.png" alt="">
+            </div>
+            <div class="product">
+                <img src="../img/pc/Bethesda_Game_Studios_logo.svg.png" alt="">
+            </div>
+        </div> &nbsp;&nbsp;
+        <div class="product-grid">
+            <div class="product">
+                <img src="../img/pc/capcomLogo.png" alt="">
+            </div>
+            <div class="product">
+                <img src="../img/pc/fromsoftwareLogo.jpg" alt="">
+            </div>
+            <div class="product">
+                <a href="../pag/ubisoftRespectPage.html"><img src="../img/pc/ubisoftLogo.jpg" alt=""></a>
+            </div>
+            <div class="product">
+                <img src="../img/pc/EAlogo.png" alt="">
+            </div>
+            <div class="product">
+                <img src="../img/pc/remedy_new_logo.jpg" alt="">
+            </div>
+        </div> &nbsp;
+    </section>              
+</main>

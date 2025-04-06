@@ -1,0 +1,21 @@
+.products {
+    background-color: #f0e0da;
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    color: #333;
+    background-color: #f0e0da;
+}
