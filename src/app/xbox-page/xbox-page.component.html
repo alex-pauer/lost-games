@@ -1,1 +1,148 @@
-<p>xbox-page works!</p>
+<main>
+  <section class="hero-for-pc">
+      <div class="hero-content">
+          <div class="text-section">
+              <h1>XBOX GAMES</h1>
+              <p>
+                  Ediciones coleccionista para todos tipos de Xbox <br>
+                  de tus juegos favoritos Consolas, Mandos y mucho más
+              </p>
+              <a href="#" class="btn">Ver catálogo</a>
+          </div>
+          <img src="" alt="XBOX" class="hero-image">
+      </div>
+  </section>
+  <div class="featured">
+      <h1>Productos</h1>
+  </div>
+  <section class="products">
+
+
+      <div class="slider">
+          <button class="slider-btn left" onclick="prevSlide()">&#10094;</button>
+          <div class="slider-container" id="slides">
+              <div class="slide"><img src="" alt="Imagen 1"></div>
+              <div class="slide"><img src="" alt="Imagen 2"></div>
+              <div class="slide"><img src="" alt="Imagen 3"></div>
+          </div>
+          <button class="slider-btn right" onclick="nextSlide()">&#10095;</button>
+      </div>
+
+<script>
+let index = 0;
+  function showSlide(n) {
+      const slides = document.querySelectorAll('.slide');
+      if (n >= slides.length) index = 0;
+      if (n < 0) index = slides.length - 1;
+      document.getElementById('slides').style.transform = `translateX(${-index * 100}%)`;
+  }
+
+  function nextSlide() {
+      index++;
+      showSlide(index);
+  }
+
+  function prevSlide() {
+      index--;
+      showSlide(index);
+  }
+</script>
+      <h2>Ediciones coleccionista y ediciones de consolas exclusivas para Xbox</h2>
+      <div class="product-grid">
+          <div class="product">
+              <img src="" alt="Product 1">
+              <p>titulo</p>
+              <span>€</span>
+          </div>
+          <div class="product">
+              <img src="" alt="Product 2">
+              <p>titulo</p>
+              <span>€</span>
+          </div>
+          <div class="product">
+              <img src="" alt="Product 3">
+              <p>titulo</p>
+              <span>€</span>
+          </div>
+      </div> &nbsp;&nbsp;
+      <div class="product-grid">
+          <div class="product">
+              <img src="" alt="Product 1">
+              <p>titulo</p>
+              <span>€</span>
+          </div>
+          <div class="product">
+              <img src="" alt="Product 2">
+              <p>titulo</p>
+              <span>€</span>
+          </div>
+          <div class="product">
+              <img src="" alt="Product 3">
+              <p>titulo</p>
+              <span>€</span>
+          </div>
+      </div> &nbsp;&nbsp;
+      <h2>Mandos</h2>
+      <div class="container">
+          <div class="vinyl">
+              <img src="" alt="Producto 1">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+          <div class="vinyl">
+              <img src="" alt="Producto 2">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+          <div class="vinyl">
+              <img src="" alt="Producto 3">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+          <div class="vinyl">
+              <img src="" alt="Producto 4">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+          <div class="vinyl">
+              <img src="" alt="Producto 5">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+          <div class="vinyl">
+              <img src="" alt="Producto 6">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+          <div class="vinyl">
+              <img src="" alt="Producto 7">
+              <p>titulo</p>
+              <span>Precio:</span>
+          </div>
+      </div>
+      &nbsp;&nbsp;
+      <div class="product-grid">
+          <div class="product">
+              <img src="../img/play/marcas/asboiTeam.jpg" alt="AsboiTeam">
+          </div>
+          <div class="product">
+              <img src="../img/play/marcas/InsomniacGamesLogo3.webp" alt="InsomniacGames">
+          </div>
+          <div class="product">
+              <img src="../img/play/marcas/naughtydog.png" alt="Naughtydog">
+          </div>
+      </div> &nbsp;&nbsp;
+      <div class="product-grid">
+          <div class="product">
+              <img src="../img/play/marcas/SantaMonicaStudio.png" alt="SantaMonicaStudio">
+          </div>
+          <div class="product">
+              <img src="../img/play/marcas/SquareEnix.jpg" alt="SquareEnix">
+          </div>
+          <div class="product">
+              <img src="../img/play/marcas/SuckerPunchProductions.webp" alt="SuckerPunchProductions">
+          </div>
+      </div> &nbsp;
+  </section>
+</main>
+
