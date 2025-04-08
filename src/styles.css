@@ -174,3 +174,6 @@ header .nav-links a {
     height: 180px;
     width: auto;
 }
+img {
+  filter: grayscale(90%);
+}
