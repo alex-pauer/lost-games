@@ -25,7 +25,7 @@
     border-radius: 5px;
     margin: 10px;
     border: 0px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a {
@@ -34,7 +34,7 @@ a {
 }
 
 .hero-for-pc {
-    background-image: url(../../img/luigi2.png);
+    background-image: url(/lost-games/public/assets/cupheada-para-header-de-pc.jpg);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
