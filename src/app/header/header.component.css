@@ -1,5 +1,5 @@
 header {
-    background-color: #7842a1;
+    background-color: #343633; /* Color ajustado */
     color: white;
     height: 85px;
     padding: 20px;
@@ -7,10 +7,8 @@ header {
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
-        vertical-align: middle;
-
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Agregado un sutil shadow para darle profundidad */
 }
-
 
 header .logo a {
     display: flex;
@@ -18,14 +16,12 @@ header .logo a {
     font-size: 24px;
     font-weight: bold;
     vertical-align: middle;
-
 }
 
 .logo img {
-    width: 50px;  
-    veºrtical-align: middle;
-  }
-
+    width: 50px;
+    vertical-align: middle;
+}
 
 header .nav-links {
     font-size: 19px;
@@ -39,22 +35,13 @@ header .nav-links li {
 
 header .nav-links a {
     font-weight: bold;
+    color: #DADFF7; /* Color de los enlaces ajustado a un tono más suave */
+    text-decoration: none; /* Se quita el subrayado */
+    transition: color 0.3s ease;
 }
 
-.hero {
-    background-color: #222324;
-    color: white;
-    padding: 20px;
-}
-
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
+header .nav-links a:hover {
+    color: #755ed7; /* Color de hover ajustado al tono del hero */
 }
 
 .user-icon img {

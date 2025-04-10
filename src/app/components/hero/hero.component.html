@@ -1,0 +1,18 @@
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<main>
+    <section [ngClass]="customClass || 'hero-default'">
+      <div class="hero-content">
+        <div class="text-section">
+          <h1>{{ title }}</h1>
+          <p [innerHTML]="description"></p>
+          <a *ngIf="buttonText && buttonLink"
+             [routerLink]="buttonLink"
+             class="btn">
+            {{ buttonText }}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  

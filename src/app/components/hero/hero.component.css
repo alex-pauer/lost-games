@@ -1,0 +1,78 @@
+.hero-default {
+    background-color: #755ed7;
+    background-image: 
+      linear-gradient(to right, 
+        rgba(117, 94, 215, 1) 0%, 
+        rgba(117, 94, 215, 0) 20%, 
+        rgba(117, 94, 215, 0) 80%, 
+        rgba(117, 94, 215, 1) 100%
+      ),
+      url("/assets/purpStarPattern.svg");
+    background-size: 100%, 4%;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pan 180s linear infinite;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif; /* Cambiar a Plus Jakarta Sans */
+}
+
+/* Movimiento fondo estrellitas */
+@keyframes pan {
+    0% {
+      background-position: 0 0; 
+    }
+    100% {
+      background-position: 100% 0; 
+    }
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.4); /* Fondo semitransparente para separar el contenido */
+    padding: 60px;
+    border-radius: 20px;
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(6px); /* Fondo desenfocado para mayor contraste */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.text-section h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(117, 94, 215, 0.6);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.text-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #e0dcff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn {
+    background-color: #755ed7;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px #5d49b5;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #755ed7b6;
+    transform: scale(1.05);
+}

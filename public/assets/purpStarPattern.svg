@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="512" height="512">
+	<title>New Project</title>
+	<defs>
+		<image width="240" height="240" id="img1" href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjgwMHB4IiB3aWR0aD0iODAwcHgiIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDQ3Ljk0IDQ3Ljk0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggc3R5bGU9ImZpbGw6IzgyNmFlZDsiIGQ9Ik0yNi4yODUsMi40ODZsNS40MDcsMTAuOTU2YzAuMzc2LDAuNzYyLDEuMTAzLDEuMjksMS45NDQsMS40MTJsMTIuMDkxLDEuNzU3ICBjMi4xMTgsMC4zMDgsMi45NjMsMi45MSwxLjQzMSw0LjQwM2wtOC43NDksOC41MjhjLTAuNjA4LDAuNTkzLTAuODg2LDEuNDQ4LTAuNzQyLDIuMjg1bDIuMDY1LDEyLjA0MiAgYzAuMzYyLDIuMTA5LTEuODUyLDMuNzE3LTMuNzQ2LDIuNzIybC0xMC44MTQtNS42ODVjLTAuNzUyLTAuMzk1LTEuNjUxLTAuMzk1LTIuNDAzLDBsLTEwLjgxNCw1LjY4NSAgYy0xLjg5NCwwLjk5Ni00LjEwOC0wLjYxMy0zLjc0Ni0yLjcyMmwyLjA2NS0xMi4wNDJjMC4xNDQtMC44MzctMC4xMzQtMS42OTItMC43NDItMi4yODVsLTguNzQ5LTguNTI4ICBjLTEuNTMyLTEuNDk0LTAuNjg3LTQuMDk2LDEuNDMxLTQuNDAzbDEyLjA5MS0xLjc1N2MwLjg0MS0wLjEyMiwxLjU2OC0wLjY1LDEuOTQ0LTEuNDEybDUuNDA3LTEwLjk1NiAgQzIyLjYwMiwwLjU2NywyNS4zMzgsMC41NjcsMjYuMjg1LDIuNDg2eiIvPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<use id="download" href="#img1" transform="matrix(.531,-0.297,.297,.531,99.741,-37.728)"/>
+	<use id="download copy" href="#img1" transform="matrix(.531,-0.297,.297,.531,-100.259,162.272)"/>
+	<use id="download copy 2" href="#img1" transform="matrix(.531,-0.297,.297,.531,99.741,362.272)"/>
+	<use id="download copy 3" href="#img1" transform="matrix(.531,-0.297,.297,.531,299.741,162.272)"/>
+</svg>
