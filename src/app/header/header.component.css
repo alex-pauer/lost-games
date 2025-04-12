@@ -49,3 +49,16 @@ header .nav-links a:hover {
     justify-content: center;
     margin-left: 35px;
 }
+
+.cesta-img img {
+    max-height: 25px;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: #DADFF7; /* Color de los enlaces ajustado a un tono más suave */
+    text-decoration: none; /* Se quita el subrayado */
+    transition: color 0.3s ease;
+}

@@ -75,7 +75,7 @@ header .nav-links a {
 }
 
 .hero-for-pc {
-    background-image: url(/lost-games/public/assets/cupheada-para-header-de-pc.jpg);
+    background-image: url(/assets/cupheada-para-header-de-pc.jpg);
     /*para que lo ocupe todo*/
     background-size: contain;
     background-position: right;
@@ -175,5 +175,5 @@ header .nav-links a {
     width: auto;
 }
 img {
-  filter: grayscale(90%);
+  filter: grayscale(0%);
 }
