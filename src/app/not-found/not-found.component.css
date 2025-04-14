@@ -1,78 +1,142 @@
-.not-found {
-    position: relative;
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    font-family: sans-serif;
-    overflow: hidden;
-    height: 60vh;
-  }
+/* Base styles */
+body {
+  margin: 0;
+  background: #000;
+  color: white;
+  font-family: 'Courier New', monospace;
+}
 
-  .flying-img {
-    width: 200px;
-    height: auto;
-    margin: 0;
-    z-index: 0;
-  }
-  
-
-  
-  /* Текст поверх */
-  .not-found h1,
-  .not-found p,
-  .not-found a {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .not-found h1 {
-    font-size: 200px;
-    color: #755ed7;
-  }
-  
-  .not-found p {
-    font-size: 24px;
-    color: rgb(175, 171, 164);
-  }
-  
-  .not-found a {
-    display: inline-block;
-    margin-top: 20px;
-    color: #755ed7;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-
-
-/*VHS*/
-/* Обновленный стиль с медленной анимацией и менее интенсивным фильтром */
-
+/* VHS Effect Container */
 .vhs-effect {
-    position: relative;
-    overflow: hidden;
-    background: #000;
-    filter: grayscale(40%) contrast(100%) blur(0.5px);  /* Уменьшены значения */
-    animation: vhs-glitch 1.5s infinite alternate;  /* Замедлена анимация до 3 секунд */
-    
-    /* Линии "интерлейса" */
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 50%, transparent 50%);
-    background-size: 100px 20px;  /* Увеличена ширина интерлейса для мягкого эффекта */
-  }
-  
-  @keyframes vhs-glitch {
-    0% {
-      transform: translateX(0) translateY(0);
-      opacity: 1;
-    }
-    50% {
-      transform: translateX(-5px) translateY(-3px);  /* Меньшие смещения для более плавного эффекта */
-      opacity: 0.9;
-    }
-    100% {
-      transform: translateX(5px) translateY(3px);
-      opacity: 1;
-    }
-  }
-  
-  
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main content container */
+.not-found-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+/* Content box */
+.not-found-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Flying image */
+.flying-img {
+  width: 150px;
+  height: auto;
+  animation: float 3s ease-in-out infinite;
+  margin-bottom: 30px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Glitch effect */
+.glitch-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.glitch {
+  position: relative;
+  font-size: 10rem;
+  font-weight: 700;
+  color: #755ed7;
+  line-height: 1;
+  margin: 0;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch::before {
+  color: #ff00ff;
+  animation: glitch-effect 3s infinite;
+  z-index: -1;
+}
+
+.glitch::after {
+  color: #00ffff;
+  animation: glitch-effect 2s infinite reverse;
+  z-index: -2;
+}
+
+@keyframes glitch-effect {
+  0% { transform: translate(0); }
+  20% { transform: translate(-3px, 3px); }
+  40% { transform: translate(-3px, -3px); }
+  60% { transform: translate(3px, 3px); }
+  80% { transform: translate(3px, -3px); }
+  100% { transform: translate(0); }
+}
+
+/* Text styles */
+.not-found-text {
+  font-size: 1.5rem;
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #755ed7;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.home-link:hover {
+  background: #5d4aaf;
+  transform: translateY(-2px);
+}
+
+/* VHS scanlines */
+.vhs-effect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 1;
+}
