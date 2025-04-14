@@ -5,7 +5,8 @@
 }
 
 .featured h1{
-    background-color: #7842a1;
+    background-color: #755ed7;
+    box-shadow: black 10px;
     padding: 10px;
     font-size: 27px;
 }
@@ -20,7 +21,7 @@
 }
 .featured button {
     padding: 10px 20px;
-    background-color: #7842a1;
+    background-color: #755ed7;
     color: white;
     border-radius: 5px;
     margin: 10px;

@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 header {
     background-color: #343633; /* Color ajustado */
     color: white;
@@ -8,6 +12,7 @@ header {
     align-items: center;
     vertical-align: middle;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Agregado un sutil shadow para darle profundidad */
+    
 }
 
 header .logo a {
@@ -42,6 +47,10 @@ header .nav-links a {
 
 header .nav-links a:hover {
     color: #755ed7; /* Color de hover ajustado al tono del hero */
+}
+
+header  span:hover {
+    color: #755ed7;
 }
 
 .user-icon img {
