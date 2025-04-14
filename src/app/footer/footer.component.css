@@ -26,6 +26,7 @@ footer {
 .footerNav ul li a{
     margin: 20px;
     text-decoration: none;
+    color: white;
 }
 .footerBottom{
     background-color: #7842a1;

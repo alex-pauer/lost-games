@@ -1,0 +1,78 @@
+.not-found {
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+    overflow: hidden;
+    height: 60vh;
+  }
+
+  .flying-img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    z-index: 0;
+  }
+  
+
+  
+  /* Текст поверх */
+  .not-found h1,
+  .not-found p,
+  .not-found a {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .not-found h1 {
+    font-size: 200px;
+    color: #755ed7;
+  }
+  
+  .not-found p {
+    font-size: 24px;
+    color: rgb(175, 171, 164);
+  }
+  
+  .not-found a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #755ed7;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+
+
+/*VHS*/
+/* Обновленный стиль с медленной анимацией и менее интенсивным фильтром */
+
+.vhs-effect {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    filter: grayscale(40%) contrast(100%) blur(0.5px);  /* Уменьшены значения */
+    animation: vhs-glitch 1.5s infinite alternate;  /* Замедлена анимация до 3 секунд */
+    
+    /* Линии "интерлейса" */
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 50%, transparent 50%);
+    background-size: 100px 20px;  /* Увеличена ширина интерлейса для мягкого эффекта */
+  }
+  
+  @keyframes vhs-glitch {
+    0% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(-5px) translateY(-3px);  /* Меньшие смещения для более плавного эффекта */
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateX(5px) translateY(3px);
+      opacity: 1;
+    }
+  }
+  
+  

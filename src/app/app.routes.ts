@@ -2,6 +2,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   { 
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  { 
     path: 'home',
     loadComponent: () => import('./home/home.component').then(m => m.HomeComponent),
     title: 'HOME'
@@ -22,7 +27,7 @@ export const routes: Routes = [
     title: 'Nintendo'
   },
   {
-  path: 'xbox',
+    path: 'xbox',
     loadComponent: () => import('./xbox-page/xbox-page.component').then(m => m.XboxPageComponent),
     title: 'Xbox'
   },
@@ -36,5 +41,9 @@ export const routes: Routes = [
     loadComponent: () => import('./user-page/user-page.component').then(m => m.UserPageComponent),
     title: 'Cuenta'
   },
-  { path: '**', redirectTo: '' }
+  { 
+    path: '**',
+    loadComponent: () => import('./not-found/not-found.component').then(m => m.NotFoundComponent),
+    title: 'Página no encontrada'
+  }  
 ];
