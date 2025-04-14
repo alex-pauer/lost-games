@@ -10,7 +10,7 @@ body {
 .vhs-effect {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 75vh;
   overflow: hidden;
   background: #000;
   display: flex;
