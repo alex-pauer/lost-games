@@ -1,3 +1,7 @@
+main{
+   
+}
+
 .login-container {
     display: flex
 ;
@@ -61,4 +65,3 @@
     cursor: pointer;
     transition: background 0.3s;
 }
-
