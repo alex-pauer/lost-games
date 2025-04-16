@@ -1,10 +1,14 @@
 main{
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1f1c2c, #928dab);
+    background-size: 400% 400%;
+    background: linear-gradient(135deg, #f5d0c5, #f9e0e7);
 }
 
 .login-container {
-    display: flex
-;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 75vh;
@@ -65,3 +69,17 @@ main{
     cursor: pointer;
     transition: background 0.3s;
 }
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .luigi-img {
+    position: relative;
+    top: -200px;
+    height: 250px;
+    margin-right: -125px; /* чтобы впритык подходил к контейнеру */
+    z-index: 2;
+  }

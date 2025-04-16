@@ -1,8 +1,37 @@
 <p>nintendo-page funciona!</p>
+
 <app-product-card [product]="{
     title: 'Angry Birds Space (PC)',
     image: '/assets/index/smtDevil.jpg',
     description: 'Test de campo para juego',
     price: '10.99€'
   }"></app-product-card>
+
 <p>Importante: npm install --force</p>
+
+<div class="product_test row g-3">  <!-- g-3 — отступы между колонками -->
+  <div class="test col-md-4">      <!-- col-md-4 — 3 колонки в строку -->
+    <app-product-card [product]="{
+      title: 'Angry Birds Space (PC)',
+      image: '/assets/index/smtDevil.jpg',
+      description: 'Test de campo para juego',
+      price: '10.99€'
+    }"></app-product-card>
+  </div>
+  <div class="test col-md-4">
+    <app-product-card [product]="{
+      title: 'Angry Birds Space (PC)',
+      image: '/assets/index/smtDevil.jpg',
+      description: 'Test de campo para juego',
+      price: '10.99€'
+    }"></app-product-card>
+  </div>
+  <div class="test col-md-4">
+    <app-product-card [product]="{
+      title: 'Angry Birds Space (PC)',
+      image: '/assets/index/smtDevil.jpg',
+      description: 'Test de campo para juego',
+      price: '10.99€'
+    }"></app-product-card>
+  </div>
+</div>
