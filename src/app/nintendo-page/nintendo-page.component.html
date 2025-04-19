@@ -1,37 +1,59 @@
 <p>nintendo-page funciona!</p>
 
 <app-product-card [product]="{
-    title: 'Angry Birds Space (PC)',
+    title: 'SMT Devil Survivor (DS)',
     image: '/assets/index/smtDevil.jpg',
     description: 'Test de campo para juego',
-    price: '10.99€'
+    price: '199.99€'
   }"></app-product-card>
 
-<p>Importante: npm install --force</p>
+<!-- <p>Importante: npm install --force</p> -->
 
-<div class="product_test row g-3">  <!-- g-3 — отступы между колонками -->
-  <div class="test col-md-4">      <!-- col-md-4 — 3 колонки в строку -->
-    <app-product-card [product]="{
-      title: 'Angry Birds Space (PC)',
-      image: '/assets/index/smtDevil.jpg',
-      description: 'Test de campo para juego',
-      price: '10.99€'
-    }"></app-product-card>
-  </div>
-  <div class="test col-md-4">
-    <app-product-card [product]="{
-      title: 'Angry Birds Space (PC)',
-      image: '/assets/index/smtDevil.jpg',
-      description: 'Test de campo para juego',
-      price: '10.99€'
-    }"></app-product-card>
-  </div>
-  <div class="test col-md-4">
-    <app-product-card [product]="{
-      title: 'Angry Birds Space (PC)',
-      image: '/assets/index/smtDevil.jpg',
-      description: 'Test de campo para juego',
-      price: '10.99€'
-    }"></app-product-card>
+
+<div class="product-with-description">
+  <div class="product-content">
+    <!--<h3>Devil Survivor</h3>-->
+    <p>Megami Ibunroku Devil Survivor, released in North America as Shin Megami Tensei: Devil Survivor, is a role-playing game for the Nintendo DS developed by Career Soft. <br>
+      An enhanced port was released for the 3DS on August 23, 2011, titled Devil Survivor Overclocked. A novelization was released in two parts as the Devil Survivor Novel Anthology. <br> <br>
+      
+      Its character designs are handled by Suzuhito Yasuda of Durarara and Yozakura Quartet fame. The theme song for the game is "Reset."</p>
+    <!--<span class="price">€199.99</span>
+    <button class="buy-btn">Comprar</button>-->
   </div>
 </div>
+
+<div class="container">
+  <div class="vinyl">
+      <img src="/assets/pc/vinyl/persona3.webp" alt="Producto 1">
+      <p>Persona 3 Vinyl</p>
+      <span>Precio: €109.99</span>
+  </div>
+  <div class="vinyl">
+      <img src="/assets/pc/vinyl/silent hill.jpg" alt="Producto 2">
+      <p>Silent Hill Vinyl</p>
+      <span>Precio: €109.99</span>
+  </div>
+  <div class="vinyl">
+      <img src="/assets/pc/vinyl/doom.webp" alt="Producto 4">
+      <p>DOOM Vinyl</p>
+      <span>Precio: €109.99</span>
+  </div>
+  <div class="vinyl">
+      <img src="/assets/pc/vinyl/theWalkingDead.webp" alt="Producto 5">
+      <p>The Walking Dead Vinyl</p>
+      <span>Precio: €99.99</span>
+  </div>
+  <div class="vinyl">
+      <img src="/assets/pc/vinyl/metalGearSolid.webp" alt="Producto 6">
+      <p>Metal Gear Solid Vinyl</p>
+      <span>Precio: €109.99</span>
+  </div>
+  <div class="vinyl">
+      <img src="/assets/pc/vinyl/alanWake2.webp" alt="Producto 7">
+      <p>Persona Alan Wake II Vinyl</p>
+      <span>Precio: €49.99</span>
+  </div>
+</div>
+
+
+

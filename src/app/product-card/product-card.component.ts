@@ -1,8 +1,13 @@
 import { Component, Input } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-product-card',
-  standalone: true, // <-- Добавь эту строку
+  standalone: true, 
+  imports: [ 
+    RouterLink,
+    RouterLinkActive
+  ],
   templateUrl: './product-card.component.html',
   styleUrls: ['./product-card.component.css']
 })
