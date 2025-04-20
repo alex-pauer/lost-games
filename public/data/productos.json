@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "nombre": "Persona 5 Royal",
+      "descripcion": "RPG japonesa con una historia intensa y combate por turnos estilizado.",
+      "precio": 49.99,
+      "imagen": "/assets/img/persona5.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Elden Ring",
+      "descripcion": "Acción y exploración en un mundo abierto creado por FromSoftware.",
+      "precio": 59.99,
+      "imagen": "/assets/img/eldenring.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Hades",
+      "descripcion": "Roguelike dinámico con ambientación mitológica y narrativa profunda.",
+      "precio": 24.99,
+      "imagen": "/assets/img/hades.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Celeste",
+      "descripcion": "Plataformas desafiante con una historia emotiva sobre superación personal.",
+      "precio": 19.99,
+      "imagen": "/assets/img/celeste.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Cuphead",
+      "descripcion": "Run & gun clásico con estilo visual de los años 30 y dificultad elevada.",
+      "precio": 17.99,
+      "imagen": "/assets/img/cuphead.jpg"
+    }
+  ]
+  

@@ -42,6 +42,11 @@ export const routes: Routes = [
     title: 'Cuenta'
   },
   { 
+    path: 'producto/:id',  // json test
+    loadComponent: () => import('./components/catalogo-productos/catalogo-productos.component').then(m => m.CatalogoProductosComponent),
+    title: 'Producto'
+  },
+  { 
     path: '**',
     loadComponent: () => import('./not-found/not-found.component').then(m => m.NotFoundComponent),
     title: 'Página no encontrada'
