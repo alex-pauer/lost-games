@@ -74,6 +74,7 @@ main{
     position: relative;
     display: flex;
     align-items: flex-end;
+    margin-left: 300px;
   }
   
   .luigi-img {
@@ -83,3 +84,12 @@ main{
     margin-right: -125px; /* чтобы впритык подходил к контейнеру */
     z-index: 2;
   }
+
+  .fantasma-img {
+    position: relative;
+    top: -150px;
+    height: 350px;
+    margin-left: -100px; /* чтобы вплотную подходил к форме */
+    z-index: 2;
+  }
+  

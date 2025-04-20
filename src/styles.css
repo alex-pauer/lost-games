@@ -4,9 +4,13 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-body {
+ body {
     color: #333;
     background-color: #f0e0da;
+} 
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 header {
