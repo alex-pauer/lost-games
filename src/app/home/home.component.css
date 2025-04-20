@@ -42,3 +42,177 @@ a {
     color: white;
     padding: 50px 20px;
 }
+
+.home-wrapper {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(145deg, #2d2e2c, #1b1c1a);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    color: #755ed7;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #bbbbbb;
+    margin-bottom: 30px;
+  }
+  
+  .explore-btn {
+    background-color: #755ed7;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background-color: #5e4cb3;
+    box-shadow: 0 4px 12px rgba(117, 94, 215, 0.4);
+    transform: translateY(-2px);
+  }
+  
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    color: #755ed7;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    color: #bbbbbb;
+    font-size: 1.1rem;
+  }
+  
+  .highlights-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #1e1e1e;
+  }
+  
+  .highlight-boxes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+  }
+  
+  .highlight {
+    background: linear-gradient(135deg, #2d2e2c, #1b1b1b);
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .highlight:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .highlight h3 {
+    font-size: 2rem; /* Увеличиваем размер заголовков */
+    margin-bottom: 15px;
+  }
+  
+  .highlight p {
+    font-size: 1.2rem; /* Увеличиваем размер текста */
+    line-height: 1.5;
+  }
+  
+  .big-game-block {
+    background: linear-gradient(135deg, #5c4b3b, #3b2f20); /* Похожий стиль для блоков с играми */
+    border-left: 8px solid #e67e22;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .big-game-block:hover {
+    transform: scale(1.02);
+  }
+  
+  .big-game-block h3 {
+    color: #f5deb3;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .big-game-block p {
+    color: #e0d2c1;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .big-game-block img {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #e67e22;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .big-game-block img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 14px 40px rgba(230, 126, 34, 0.5);
+  }
+  
+  .wishlist-btn {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .wishlist-btn:hover {
+    background-color: #d35400;
+  }
+
+ 
+.big-game-block p {
+    text-align: left;
+}
+  
+  
+  
