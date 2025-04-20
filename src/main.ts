@@ -1,6 +1,9 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { CatalogoProductosComponent } from './app/components/catalogo-productos/catalogo-productos.component';
+import { ProductoService } from './app/services/producto.service';
+import { provideRouter } from '@angular/router';
 
-bootstrapApplication(AppComponent, appConfig)
+bootstrapApplication(CatalogoProductosComponent, {
+  providers: [ProductoService, provideRouter([])]
+})
   .catch((err) => console.error(err));
