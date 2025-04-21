@@ -79,7 +79,7 @@ header .nav-links a {
 }
 
 .hero-for-pc {
-    background-image: url(/assets/cupheada-para-header-de-pc.jpg);
+    background-image: url(/assets/play/screamFondo.jpg);
     /*para que lo ocupe todo*/
     background-size: contain;
     background-position: right;
