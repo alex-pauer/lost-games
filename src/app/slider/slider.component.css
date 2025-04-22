@@ -1,0 +1,9 @@
+.carousel-inner {
+    height: 560px; /* o el alto que tú quieras */
+  }
+  
+  .carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
