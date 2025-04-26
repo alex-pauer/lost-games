@@ -38,8 +38,29 @@ main{
 }
 
 .input-group {
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden; 
 }
+
+.input-group input {
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #7842a1;
+    outline: none; 
+}
+
 
 .forgot-password {
     display: block;
@@ -81,7 +102,7 @@ main{
     position: relative;
     top: -200px;
     height: 250px;
-    margin-right: -125px; /* чтобы впритык подходил к контейнеру */
+    margin-right: -125px;
     z-index: 2;
   }
 
@@ -89,7 +110,7 @@ main{
     position: relative;
     top: -150px;
     height: 350px;
-    margin-left: -100px; /* чтобы вплотную подходил к форме */
+    margin-left: -100px;
     z-index: 2;
   }
   
