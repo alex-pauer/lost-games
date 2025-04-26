@@ -15,10 +15,6 @@ section {
     unicode-bidi: isolate;
 }
 
-/*body {
-    color: #333;
-    background-color: #f0e0da;
-}*/
 
 .vinyl {
     display: flex;

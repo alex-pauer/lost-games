@@ -12,48 +12,19 @@
             <!-- <img src="../../../assets/play/screamFondo.jpg" alt="PLAYSTATION" class="hero-image"> -->
         </div>
     </section>
+    <app-slider [images]="[
+        '../../../assets/play/slider/ds2.jpg',
+        '../../../assets/play/slider/ghostOfYotei.webp',
+        '/../../../assets/play/slider/LobeznoGame.jpg'
+      ]"></app-slider>
+      
     <div class="featured">
         <h1>Productos</h1>
     </div>
     <section class="products">
 
+        
 
-        <div class="slider">
-            <button class="slider-btn left" onclick="prevSlide()">&#10094;</button>
-            <div class="slider-container" id="slides">
-                <div class="slide"><img src="../../../assets/play/slider/ds2.jpg" alt="Imagen 1"></div>
-                <div class="slide"><img src="../../../assets/play/slider/ghostOfYotei.webp" alt="Imagen 2"></div>
-                <div class="slide"><img src="../../../assets/play/slider/LobeznoGame.jpg" alt="Imagen 3"></div>
-            </div>
-            <button class="slider-btn right" onclick="nextSlide()">&#10095;</button>
-        </div>
-    
-<script>
-  let index = 0;
-    function showSlide(n) {
-        const slides = document.querySelectorAll('.slide');
-        if (n >= slides.length) index = 0;
-        if (n < 0) index = slides.length - 1;
-        document.getElementById('slides').style.transform = `translateX(${-index * 100}%)`;
-    }
-
-    function nextSlide() {
-        index++;
-        showSlide(index);
-    }
-
-    function prevSlide() {
-        index--;
-        showSlide(index);
-    }
-</script>
-        <h2>Ediciones coleccionista y ediciones de consolas exclusivas para PlayStation</h2>
-        <app-product-card [product]="{
-            title: 'Angry Birds Space (PC)',
-            image: '/assets/index/smtDevil.jpg',
-            description: 'Test de campo para juego',
-            price: '10.99€'
-          }"></app-product-card>
         <div class="product-grid">
             <div class="product">
                 <img src="../../../assets/play/godOfWarRagColl.jpg" alt="Product 1">
@@ -109,11 +80,6 @@
                 <img src="../../../assets/play/killzone-ps2.jpg" alt="Producto 4">
                 <p>KILLZONE</p>
                 <span>Precio: €109.99</span>
-            </div>
-            <div class="vinyl">
-                <img src="../../../assets/play/hitman-ps2.jpg" alt="Producto 5">
-                <p>Hitman</p>
-                <span>Precio: €99.99</span>
             </div>
             <div class="vinyl">
                 <img src="../../../assets/play/Uncharted-3-Drakes-Deception-PS3.jpg" alt="Producto 6">
