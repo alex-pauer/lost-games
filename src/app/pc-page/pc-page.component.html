@@ -9,65 +9,21 @@
                 </p>
                 <a href="#" class="btn">Ver catálogo</a>
             </div>
-            <!--<img src="/assets/pc/1.png" alt="PC Gaming" class="hero-image">-->
         </div>
     </section>
-    <app-slider></app-slider>
+    
 
     <div class="featured">
         <h1>Productos</h1>
     </div>
-    <section class="products">
-        <div class="slider-container">
-            <div class="slider-track">
-              <div class="slide">
-                <img src="/assets/pc/slider/fable.webp" alt="Fable">
-                <div class="slide-text">
-                  <h2>Fable</h2>
-                  <p>TEXTO.TEXTO.TEXTO.TEXTO.TEXTO.TEXTO.TEXTO.TEXTO.</p>
-                </div>
-              </div>
-              <div class="slide">
-                <img src="/assets/pc/slider/mafia.jpg" alt="Mafia">
-                <div class="slide-text">
-                  <h2>Mafia</h2>
-                  <p>Классика мафиозной драмы в стиле ретро возвращается.</p>
-                </div>
-              </div>
-              <div class="slide">
-                <img src="/assets/pc/slider/avowed.jpg" alt="Avowed">
-                <div class="slide-text">
-                  <h2>Avowed</h2>
-                  <p>Эпическая фэнтези RPG от создателей The Outer Worlds.</p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <script>
-            let currentSlide = 0;
-            const slides = document.querySelectorAll('.slide');
-            const track = document.querySelector('.slider-track');
-          
-            function showSlide(index) {
-              track.style.transform = `translateX(-${index * 100}%)`;
-            }
-          
-            setInterval(() => {
-              currentSlide = (currentSlide + 1) % slides.length;
-              showSlide(currentSlide);
-            }, 5000); // каждые 5 секунд
-          </script>
-          
-          
+
+          <app-slider [images]="[
+          '/assets/pc/slider/fable.webp',
+          '/assets/pc/slider/mafia.jpg',
+          '/assets/pc/slider/avowed.jpg'
+        ]"></app-slider>
         
-        <h2>Ediciones coleccionista para PC</h2>
-        <app-product-card [product]="{
-            title: 'Angry Birds Space (PC)',
-            image: '/assets/index/smtDevil.jpg',
-            description: 'Test de campo para juego',
-            price: '10.99€'
-          }"></app-product-card>
           
           <div class="product-grid">
             <div class="product">
@@ -173,6 +129,5 @@
             <div class="logo-card">
                 <img src="/assets/pc/remedy_new_logo.jpg" alt="Remedy Logo">
             </div>
-          </div> &nbsp;
-    </section>              
+          </div> &nbsp;              
 </main>

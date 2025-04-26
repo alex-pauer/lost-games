@@ -1,9 +1,10 @@
 .carousel-inner {
-    height: 560px; /* o el alto que tú quieras */
-  }
-  
-  .carousel-inner img {
-    object-fit: cover;
-    height: 100%;
-  }
-  
+  height: 560px; /* Высота слайдера */
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+

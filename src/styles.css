@@ -4,7 +4,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
- body {
+ body, main {
     color: #333;
     background-color: #f0e0da;
 } 

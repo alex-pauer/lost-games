@@ -11,4 +11,10 @@ import { SliderComponent } from '../slider/slider.component';
   templateUrl: './pc-page.component.html',
   styleUrls: ['./pc-page.component.css']
 })
-export class PcPageComponent {}
+export class PcPageComponent {
+  pcSlides = [
+    '/assets/pc/slider/fable.webp',
+    '/assets/pc/slider/mafia.jpg',
+    '/assets/pc/slider/avowed.jpg'
+  ];
+}
