@@ -1,4 +1,4 @@
-<body>
+<!-- <body>
   
 <p>nintendo-page funciona!</p>
 
@@ -9,18 +9,17 @@
     price: '199.99€'
   }"></app-product-card>
 
-<!-- <p>Importante: npm install --force</p> -->
+
 
 
 <div class="product-with-description">
   <div class="product-content">
-    <!--<h3>Devil Survivor</h3>-->
+    
     <p>Megami Ibunroku Devil Survivor, released in North America as Shin Megami Tensei: Devil Survivor, is a role-playing game for the Nintendo DS developed by Career Soft. <br>
       An enhanced port was released for the 3DS on August 23, 2011, titled Devil Survivor Overclocked. A novelization was released in two parts as the Devil Survivor Novel Anthology. <br> <br>
       
       Its character designs are handled by Suzuhito Yasuda of Durarara and Yozakura Quartet fame. The theme song for the game is "Reset."</p>
-    <!--<span class="price">€199.99</span>
-    <button class="buy-btn">Comprar</button>-->
+    
   </div>
 </div>
 
@@ -31,18 +30,18 @@
     price: '199.99€'
   }"></app-product-card>
 
-<!-- <p>Importante: npm install --force</p> -->
+<p>Importante: npm install --force</p> 
 
 
 <div class="product-with-description">
   <div class="product-content">
-    <!--<h3>Devil Survivor</h3>-->
+    <h3>Devil Survivor</h3>
     <p>Megami Ibunroku Devil Survivor, released in North America as Shin Megami Tensei: Devil Survivor, is a role-playing game for the Nintendo DS developed by Career Soft. <br>
       An enhanced port was released for the 3DS on August 23, 2011, titled Devil Survivor Overclocked. A novelization was released in two parts as the Devil Survivor Novel Anthology. <br> <br>
       
       Its character designs are handled by Suzuhito Yasuda of Durarara and Yozakura Quartet fame. The theme song for the game is "Reset."</p>
-    <!--<span class="price">€199.99</span>
-    <button class="buy-btn">Comprar</button>-->
+    <span class="price">€199.99</span>
+    <button class="buy-btn">Comprar</button>
   </div>
 </div>
 
@@ -154,4 +153,135 @@
 </div>
 
 
-</body>
+</body> -->
+
+<main>
+  <section class="hero-for-pc">
+      <div class="hero-content">
+          <div class="text-section">
+              <h1>PC GAMES</h1>
+              <p>
+                  Ediciones coleccionista para PC <br>
+                  de tus juegos favoritos y vinilos de bandas sonoras.
+              </p>
+              <a href="#" class="btn">Ver catálogo</a>
+          </div>
+      </div>
+  </section>
+  
+            <app-slider [images]="[
+        '/assets/nintendo/Metroid-Prime-4-Beyond.webp',
+        '/assets/nintendo/ns2.webp',
+        '/assets/nintendo/xenobladeX.jpg'
+      ]"></app-slider>
+
+  <div class="featured">
+      <h1>Productos</h1>
+  </div>
+
+        <div class="product-grid">
+          <div class="product">
+              <img src="/assets/nintendo/collectors/bayonetta.jpg" alt="Product 1">
+              <p>Bayonetta 3</p>
+              <span>149.99€</span>
+          </div>
+          <div class="product">
+              <img src="/assets/nintendo/collectors/cuphead.jpg" alt="Product 2">
+              <p>Cuphead</p>
+              <span>199.99€</span>
+          </div>
+          <div class="product">
+              <img src="/assets/nintendo/collectors/dredge.jpg" alt="Product 3">
+              <p>Dredge</p>
+              <span>99.99€</span>
+          </div>
+        </div> &nbsp;&nbsp;
+        <div class="product-grid">
+          <div class="product">
+              <img src="/assets/nintendo/collectors/hollowknight.avif" alt="Product 1">
+              <p>Hollow Knight</p>
+              <span>120€</span>
+          </div>
+          <div class="product">
+              <img src="/assets/nintendo/collectors/xenoblade.jpg" alt="Product 2">
+              <p>Xenoblade 3</p>
+              <span>180€</span>
+          </div>
+          <div class="product">
+              <img src="/assets/nintendo/collectors/zeldaToTK.jpg" alt="Product 3">
+              <p>Zelda Tears of the Kingdom</p>
+              <span>299.99€</span>
+          </div>
+        </div> &nbsp;&nbsp;
+      <h2>Vinyl</h2>
+      <div class="container">
+          <div class="vinyl">
+              <img src="/assets/pc/vinyl/persona3.webp" alt="Producto 1">
+              <p>Persona 3 Vinyl</p>
+              <span>Precio: €109.99</span>
+          </div>
+          <div class="vinyl">
+              <img src="/assets/pc/vinyl/silent hill.jpg" alt="Producto 2">
+              <p>Silent Hill Vinyl</p>
+              <span>Precio: €109.99</span>
+          </div>
+          <div class="vinyl">
+              <img src="/assets/pc/vinyl/doom.webp" alt="Producto 4">
+              <p>DOOM Vinyl</p>
+              <span>Precio: €109.99</span>
+          </div>
+          <div class="vinyl">
+              <img src="/assets/pc/vinyl/theWalkingDead.webp" alt="Producto 5">
+              <p>The Walking Dead Vinyl</p>
+              <span>Precio: €99.99</span>
+          </div>
+          <div class="vinyl">
+              <img src="/assets/pc/vinyl/metalGearSolid.webp" alt="Producto 6">
+              <p>Metal Gear Solid Vinyl</p>
+              <span>Precio: €109.99</span>
+          </div>
+          <div class="vinyl">
+              <img src="/assets/pc/vinyl/alanWake2.webp" alt="Producto 7">
+              <p>Persona Alan Wake II Vinyl</p>
+              <span>Precio: €49.99</span>
+          </div>
+        </div>
+      &nbsp;&nbsp;
+      <div class="logo-grid">
+          <div class="logo-card">
+              <img src="/assets/pc/atlusLogo.webp" alt="Atlus Logo">
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/FinalFantasyLogo.png" alt="Final Fantasy Logo">
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/CD_Projekt_logo.png" alt="CD Projekt Logo">
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/Activision-Logo.png" alt="Activision Logo">
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/Bethesda_Game_Studios_logo.svg.png" alt="Bethesda Logo">
+          </div>
+        </div>
+        
+        <div class="logo-grid">
+          <div class="logo-card">
+              <img src="/assets/pc/capcomLogo.png" alt="Capcom Logo">
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/fromsoftwareLogo.jpg" alt="FromSoftware Logo">
+          </div>
+          <div class="logo-card">
+              <a href="/assets/ubisoftRespectPage.html">
+                  <img src="/assets/pc/ubisoftLogo.jpg" alt="Ubisoft Logo">
+              </a>
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/EAlogo.png" alt="EA Logo">
+          </div>
+          <div class="logo-card">
+              <img src="/assets/pc/remedy_new_logo.jpg" alt="Remedy Logo">
+          </div>
+        </div> &nbsp;              
+</main>
