@@ -242,7 +242,7 @@ section {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: bold; /* Жирный текст по умолчанию */
+  font-weight: bold; 
 }
 
 body {
@@ -261,7 +261,7 @@ section {
   text-align: center;
 }
 
-/* Одиночный стиль для карточки винила */
+
 .vinyl {
   display: flex;
   flex-direction: column;
@@ -305,7 +305,7 @@ section {
   color: #bbbbbb;
 }
 
-/* Сетка товаров */
+
 .container {
   max-width: 100%;
   display: flex;
@@ -314,7 +314,7 @@ section {
   justify-content: center;
 }
 
-/* Карточка товара с описанием */
+
 .product-with-description {
   position: relative;
   background: #2d2e2c;
@@ -391,7 +391,7 @@ section {
   box-shadow: 0 4px 8px rgba(94, 76, 179, 0.4);
 }
 
-/* Обычная карточка товара */
+
 .product {
   background-color: #2d2e2c;
   padding: 20px;
@@ -439,7 +439,7 @@ section {
   color: #bbbbbb;
 }
 
-/* Сетка логотипов */
+
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -447,7 +447,7 @@ section {
   margin: 20px;
 }
 
-/* Карточка логотипа */
+
 .logo-card {
   background-color: #2d2e2c;
   padding: 20px;
