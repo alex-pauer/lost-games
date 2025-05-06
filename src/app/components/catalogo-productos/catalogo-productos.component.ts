@@ -12,13 +12,26 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, RouterModule]  
 })
 export class CatalogoProductosComponent implements OnInit {
-  productos: Producto[] = [];
+  productCata?: Producto;
+  bertha: string = "Bertha";
 
   constructor(private productoService: ProductoService) { }
 
   ngOnInit(): void {
-    this.productoService.getProductos().subscribe(data => {
-      this.productos = data;
-    });
+    this.loadData();
   }
+
+   loadData() {
+    this.productoService.getProductos().subscribe(
+      {
+        next: (data)=>{
+          this.productCata =data;
+          console.log(this.productCata)
+        }
+      }
+    )
+  }
+
+
 }
+

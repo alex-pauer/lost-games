@@ -1,74 +1,77 @@
-[
-  {
-    "id": 1,
-    "nombre": "Angry Birds Space (PC)",
-    "descripcion": "Un juego de disparos con una física divertida y niveles desafiantes.",
-    "precio": 10.99,
-    "imagen": "/assets/index/juegos/angry_space.jpg"
-  },
-  {
-    "id": 2,
-    "nombre": "Beat the Beat Rhythm Paradise (Wii)",
-    "descripcion": "Un juego de ritmo con música pegajosa y diversión sin fin.",
-    "precio": 15.99,
-    "imagen": "/assets/index/juegos/beat the beat.jpg"
-  },
-  {
-    "id": 3,
-    "nombre": "Camera Cafe (PC)",
-    "descripcion": "Un juego de simulación de oficina con humor absurdo.",
-    "precio": 20.99,
-    "imagen": "/assets/index/juegos/camera cafe.png"
-  },
-  {
-    "id": 4,
-    "nombre": "Los Simpsons (PC) (Versión alemana)",
-    "descripcion": "Un juego basado en la serie de televisión Los Simpsons.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/die simpsons das spiel.jpg"
-  },
-  {
-    "id": 5,
-    "nombre": "Seaman (Dreamcast)",
-    "descripcion": "Un simulador de vida con un toque muy peculiar y conversación con peces.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/seaman.jpg"
-  },
-  {
-    "id": 6,
-    "nombre": "Torrente (PC)",
-    "descripcion": "Un juego de acción basado en el personaje Torrente, un policía torpe.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/torrente.jpg"
-  },
-  {
-    "id": 7,
-    "nombre": "Torrente 3 (PlayStation 2)",
-    "descripcion": "La tercera entrega de las aventuras de Torrente en PlayStation 2.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/torrente3.jpg"
-  },
-  {
-    "id": 8,
-    "nombre": "Bookworm Adventures",
-    "descripcion": "Un juego de palabras con un enfoque de aventuras y acertijos.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/Bookworm_Adventures_Cover.jpg"
-  },
-  {
-    "id": 9,
-    "nombre": "de Blob",
-    "descripcion": "Un juego de plataformas en el que coloreas la ciudad en un mundo monocromático.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/de blob.jpg"
-  },
-  {
-    "id": 10,
-    "nombre": "Donkey Konga",
-    "descripcion": "Un juego de ritmo donde tocas bongos al ritmo de la música.",
-    "precio": 12.99,
-    "imagen": "/assets/index/juegos/donkey konga.jpg"
-  }
-]
-
+{
+  "nombre": "Catalogo de Juegos",
+  "producto": [
+    {
+      "id": 1,
+      "nombre": "Angry Birds Space (PC)",
+      "descripcion": "Un juego de disparos con una física divertida y niveles desafiantes.",
+      "precio": 10.99,
+      "imagen": "/assets/index/juegos/angry_space.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Beat the Beat Rhythm Paradise (Wii)",
+      "descripcion": "Un juego de ritmo con música pegajosa y diversión sin fin.",
+      "precio": 15.99,
+      "imagen": "/assets/index/juegos/beat the beat.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Camera Cafe (PC)",
+      "descripcion": "Un juego de simulación de oficina con humor absurdo.",
+      "precio": 20.99,
+      "imagen": "/assets/index/juegos/camera cafe.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Los Simpsons (PC) (Versión alemana)",
+      "descripcion": "Un juego basado en la serie de televisión Los Simpsons.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/die simpsons das spiel.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Seaman (Dreamcast)",
+      "descripcion": "Un simulador de vida con un toque muy peculiar y conversación con peces.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/seaman.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Torrente (PC)",
+      "descripcion": "Un juego de acción basado en el personaje Torrente, un policía torpe.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/torrente.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Torrente 3 (PlayStation 2)",
+      "descripcion": "La tercera entrega de las aventuras de Torrente en PlayStation 2.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/torrente3.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Bookworm Adventures",
+      "descripcion": "Un juego de palabras con un enfoque de aventuras y acertijos.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/Bookworm_Adventures_Cover.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "de Blob",
+      "descripcion": "Un juego de plataformas en el que coloreas la ciudad en un mundo monocromático.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/de blob.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Donkey Konga",
+      "descripcion": "Un juego de ritmo donde tocas bongos al ritmo de la música.",
+      "precio": 12.99,
+      "imagen": "/assets/index/juegos/donkey konga.jpg"
+    }
+  ]
+  
+}
   

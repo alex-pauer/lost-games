@@ -1,13 +1,16 @@
-<div class="container">
+<!-- <div class="container">
   <div class="row">
-    <div class="card" *ngFor="let producto of productos">
-      <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
-      <div class="card-body">
-        <h5 class="card-title">{{ producto.nombre }}</h5>
-        <p class="card-text">{{ producto.descripcion }}</p>
-        <span class="card-text price">{{ producto.precio | currency }}</span>
+    @for ( producto of productCata; track producto) {
+      <div class="card" >
+        <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ producto.nombre }}</h5>
+          <p class="card-text">{{ producto.descripcion }}</p>
+          <span class="card-text price">{{ producto.precio | currency }}</span>
+        </div>
       </div>
-    </div>
+    }
+
   </div>
-</div>
+</div> -->
 
