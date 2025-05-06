@@ -1,6 +1,7 @@
-<!-- <div class="container">
+<h1>este es el Catalogo</h1>
+ <div class="container">
   <div class="row">
-    @for ( producto of productCata; track producto) {
+    @for ( producto of productCata?.producto; track producto) {
       <div class="card" >
         <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
         <div class="card-body">
@@ -12,5 +13,5 @@
     }
 
   </div>
-</div> -->
+</div>
 

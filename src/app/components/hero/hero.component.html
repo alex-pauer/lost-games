@@ -7,7 +7,7 @@
           <h1>{{ title }}</h1>
           <p [innerHTML]="description"></p>
           <a *ngIf="buttonText && buttonLink"
-             [routerLink]="buttonLink"
+             routerLink="/producto"
              class="btn">
             {{ buttonText }}
           </a>
@@ -15,4 +15,3 @@
       </div>
     </section>
   </main>
-  

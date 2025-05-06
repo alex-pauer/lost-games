@@ -1,7 +1,7 @@
-export interface Producto {
+export interface ProductoI {
     producto: Producto[]
   }
-  
+
   export interface Producto {
     id: number
     nombre: string
@@ -9,4 +9,3 @@ export interface Producto {
     precio: number
     imagen: string
   }
-  
