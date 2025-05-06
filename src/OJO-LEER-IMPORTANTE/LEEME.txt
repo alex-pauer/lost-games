@@ -1,0 +1,3 @@
+ya les corregí los elelmentos necesarios para que levante el archivo JSON, hecen clic en el botón de catalogo y ya carga. ya solo les queda hacer el componente para que se vea el detalle de cada juego.
+ Tomen como referencia el proyecto d ela velada y el video de la última clase.
+utilicen el historial de commits para que vean donde estuve agregando y modificando cosas, en especial lo que más conflicto me dio fue la forma en la que hicieron las rutas.
