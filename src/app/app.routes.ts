@@ -8,6 +8,8 @@ import { CestaPageComponent } from './cesta-page/cesta-page.component';
 import { XboxPageComponent } from './xbox-page/xbox-page.component';
 import { NintendoPageComponent } from './nintendo-page/nintendo-page.component';
 import { PlaystationPageComponent } from './playstation-page/playstation-page.component';
+import { DetalleComponent } from './components/detalle/detalle.component';
+
 
 export const routes: Routes = [
   {
@@ -63,6 +65,10 @@ export const routes: Routes = [
     component: CatalogoProductosComponent
     // loadComponent: () => import('./components/catalogo-productos/catalogo-productos.component').then(m => m.CatalogoProductosComponent),
     // title: 'Producto'
+  },
+  {
+    path: 'producto/:id',  // Путь с параметром ID товара
+    component: DetalleComponent
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {

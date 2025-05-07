@@ -57,6 +57,22 @@
   color: #e67e22;
 }
 
+.ver-detalles-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #755ed7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.ver-detalles-btn:hover {
+  background-color: #5d4ab3;
+}
+
 @media (max-width: 1024px) {
   .row {
     grid-template-columns: repeat(2, 1fr);

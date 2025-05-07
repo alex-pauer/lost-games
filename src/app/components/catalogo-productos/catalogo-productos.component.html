@@ -1,17 +1,17 @@
-<h1>este es el Catalogo</h1>
- <div class="container">
+<div class="container">
   <div class="row">
-    @for ( producto of productCata?.producto; track producto) {
-      <div class="card" >
+    @for (producto of productCata?.producto; track producto) {
+      <div class="card">
         <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
         <div class="card-body">
           <h5 class="card-title">{{ producto.nombre }}</h5>
           <p class="card-text">{{ producto.descripcion }}</p>
-          <span class="card-text price">{{ producto.precio | currency }}</span>
+          <span class="card-text price">{{ producto.precio | currency }}</span> <br>
+          <a [routerLink]="['/producto', producto.id]" class="ver-detalles-btn">Ver detalles</a>
         </div>
       </div>
     }
-
   </div>
 </div>
+
 
