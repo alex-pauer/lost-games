@@ -18,4 +18,6 @@ import { FooterComponent } from './footer/footer.component';
     <app-footer></app-footer>
   `
 })
-export class AppComponent {}
+export class AppComponent {
+  title = 'lost-games'; // ← ESTO ES LO QUE FALTA
+}

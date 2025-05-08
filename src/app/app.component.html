@@ -1,39 +1,5 @@
 <app-header></app-header>
 
-<div class="alert alert-success">
-  Todo está fino, mi rey.
-</div>
-
-
-  <app-hero></app-hero>
-<main>
-  
-<app-hero
-  title="LOST GAMES"
-  description="Los Games más Lost de internet.<br>bibubip"
-  buttonText="Ver catálogo"
-  buttonLink="/catalog"
-  customClass="hero-default">
-</app-hero>
-
-
-
-  <div class="featured">
-    <h1>OFERTA</h1>
-    <div class="featured-dentro">
-      <h2>Dr. House (Nintendo DS) (Versión francesa)</h2>
-      <img src="assets/img/juegos/dr-house.jpg" alt="Dr. House (DS)">
-    </div>
-    <a routerLink="/cart"><button class="btn-index">Cómpralo YA</button></a>
-  </div>
-
-
-  <section class="products">
-    <h2>Catálogo</h2>
-    <div class="product-grid">
-
-    </div>
-  </section>
-</main>
+<router-outlet></router-outlet>
 
 <app-footer></app-footer>
