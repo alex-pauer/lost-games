@@ -18,9 +18,10 @@ export class DetalleComponent implements OnInit {
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
   ngOnInit(): void {
-    const id = Number(this.route.snapshot.paramMap.get('id'));  // Получаем id из параметров маршрута
+    const id = Number(this.route.snapshot.paramMap.get('id'));
     this.http.get<any>('assets/data/productos.json').subscribe(data => {
-      this.producto = data.producto.find((p: any) => p.id === id);  // Ищем товар по ID
+      this.producto = data.producto.find((p: any) => p.id === id);
+      console.log('Producto encontrado:', this.producto);
     });
   }
 }
