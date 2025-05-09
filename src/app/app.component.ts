@@ -19,5 +19,5 @@ import { FooterComponent } from './footer/footer.component';
   `
 })
 export class AppComponent {
-  title = 'lost-games'; // ← ESTO ES LO QUE FALTA
+  title = 'lost-games';
 }

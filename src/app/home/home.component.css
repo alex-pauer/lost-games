@@ -140,17 +140,17 @@ a {
   }
   
   .highlight h3 {
-    font-size: 2rem; /* Увеличиваем размер заголовков */
+    font-size: 2rem; 
     margin-bottom: 15px;
   }
   
   .highlight p {
-    font-size: 1.2rem; /* Увеличиваем размер текста */
+    font-size: 1.2rem; 
     line-height: 1.5;
   }
   
   .big-game-block {
-    background: linear-gradient(135deg, #5c4b3b, #3b2f20); /* Похожий стиль для блоков с играми */
+    background: linear-gradient(135deg, #5c4b3b, #3b2f20); 
     border-left: 8px solid #e67e22;
     padding: 30px;
     border-radius: 20px;

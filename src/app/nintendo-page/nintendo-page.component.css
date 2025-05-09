@@ -1,5 +1,6 @@
 /*.vinyl {
 
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,7 +249,7 @@ body::after {
   transition: all 0.3s ease;
 }
 */
-
+/*experemento*/
 .products {
   background-color: #f0e0da;
   padding: 20px;
@@ -493,7 +494,7 @@ transition: all 0.3s ease;
 margin: 0;
 box-sizing: border-box;
 font-family: 'Ubuntu', sans-serif;
-font-weight: bold; /* Жирный текст по умолчанию */
+font-weight: bold;
 }
 
 body {
@@ -512,7 +513,6 @@ padding: 20px;
 text-align: center;
 }
 
-/* Одиночный стиль для карточки винила */
 .vinyl {
 display: flex;
 flex-direction: column;
@@ -556,7 +556,6 @@ font-size: 14px;
 color: #bbbbbb;
 }
 
-/* Сетка товаров */
 .container {
 max-width: 100%;
 display: flex;
@@ -565,7 +564,6 @@ gap: 20px;
 justify-content: center;
 }
 
-/* Карточка товара с описанием */
 .product-with-description {
 position: relative;
 background: #2d2e2c;
@@ -642,7 +640,6 @@ transform: translateY(-2px);
 box-shadow: 0 4px 8px rgba(94, 76, 179, 0.4);
 }
 
-/* Обычная карточка товара */
 .product {
 background-color: #2d2e2c;
 padding: 20px;
@@ -690,7 +687,6 @@ font-size: 14px;
 color: #bbbbbb;
 }
 
-/* Сетка логотипов */
 .logo-grid {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -698,7 +694,6 @@ gap: 20px;
 margin: 20px;
 }
 
-/* Карточка логотипа */
 .logo-card {
 background-color: #2d2e2c;
 padding: 20px;
