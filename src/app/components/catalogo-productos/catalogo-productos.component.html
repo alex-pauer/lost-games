@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    @for (producto of productCata?.producto; track producto) {
+    @for (producto of productCata?.producto; track producto.id) {
       <div class="card">
         <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
         <div class="card-body">
@@ -13,6 +13,3 @@
     }
   </div>
 </div>
-
-
-<a [routerLink]="['/producto', producto.id]" class="ver-detalles-btn">Ver detalles</a>
