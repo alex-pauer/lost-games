@@ -19,7 +19,7 @@ export class DetalleComponent implements OnInit {
 
   ngOnInit(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.http.get<any>('assets/data/productos.json').subscribe(data => {
+    this.http.get<any>('/data/productos.json').subscribe(data => {
       this.producto = data.producto.find((p: any) => p.id === id);
       console.log('Producto encontrado:', this.producto);
     });
